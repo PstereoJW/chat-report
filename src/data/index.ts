@@ -1,5 +1,5 @@
 import { OriginMessages } from "../type";
-import data from "./message";
+import data from "./message.js";
 import dayjs from "dayjs";
 
 const { message: allMessages } = data as OriginMessages;
