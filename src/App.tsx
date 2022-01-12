@@ -1,8 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import dayjs from "dayjs";
+import dayOfYear from "dayjs/plugin/dayOfYear";
 
 function App() {
+  dayjs.extend(dayOfYear);
+  console.log(dayjs("2021-01-01"));
   return (
     <div className="App">
       <header className="App-header">
