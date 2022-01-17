@@ -1,28 +1,18 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import dayjs from "dayjs";
-import dayOfYear from "dayjs/plugin/dayOfYear";
+import { firstPage } from "./data";
+import StartPage from "./page/StartPage";
+import FirstPage from "./page/FirstPage";
 
 function App() {
-  dayjs.extend(dayOfYear);
-  console.log(dayjs("2021-01-01"));
+  console.log(firstPage);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section>
+        <StartPage />
+      </section>
+      {/* <section>
+        <FirstPage />
+      </section> */}
     </div>
   );
 }

@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "dayjs": "^1.10.7"
+    "dayjs": "^1.10.7",
+    "typescript-plugin-css-modules": "^3.4.0"
   }
 }

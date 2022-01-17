@@ -1,0 +1,225 @@
+.background {
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 216.533333vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+  background: url(/src/static/img/firstbg.png);
+  background-size: cover;
+}
+
+.container {
+  background: transparent;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  transform: translateZ(0) scale(1);
+  transform-origin: 50% 0;
+  z-index: 4;
+}
+
+.river {
+  left: -15.912vw;
+  top: 165.954667vw;
+  width: 142.666667vw;
+  height: 68.621333vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+  background: url(/src/static/img/firstPageRiver.png);
+  background-size: cover;
+}
+
+.peopleContent {
+  position: absolute;
+  width: 100vw;
+  height: 216.533333vw;
+  bottom: 0;
+}
+
+.peopleAnimation {
+  animation-name: runCloud;
+  animation-duration: 6s;
+  animation-timing-function: cubic-bezier(0.3, 0, 0.7, 1);
+  animation-delay: -1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.leleCloud {
+  background: url(/src/static/img/leleCloud.png);
+  background-size: cover;
+  left: 45.488vw;
+  top: 109.133333vw;
+  width: 61.6vw;
+  height: 24.354667vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+}
+
+.lelePeople {
+  background: url(/src/static/img/lePeople.png);
+  background-size: cover;
+  left: 55.2vw;
+  top: 69.845333vw;
+  width: 40vw;
+  height: 60vw;
+  position: absolute;
+}
+
+.selfCloud {
+  background: url(/src/static/img/selfCloud.png);
+  background-size: cover;
+  left: 0.354667vw;
+  top: 84.8vw;
+  width: 52.621333vw;
+  height: 31.021333vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+}
+
+.selfPeople {
+  background: url(/src/static/img/selfPeople.png);
+  background-size: cover;
+  left: 15.288vw;
+  top: 69.554667vw;
+  width: 29.912vw;
+  height: 45.245333vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+}
+
+.title {
+  position: absolute;
+  left: 6.933333vw;
+  top: 15.466667vw;
+  color: #fff;
+  font-family: "song";
+  text-align: left;
+}
+
+.nickname {
+  font-size: 4.5vw;
+}
+
+.englishTitle {
+  font-family: "pt";
+  display: flex;
+  margin: 4vw 0;
+}
+.subTitle {
+  font-size: 5vw;
+}
+.number {
+  font-size: 20vw;
+  line-height: 16vw;
+  margin-right: 4vw;
+}
+
+.chineseTitle {
+  font-size: 8vw;
+}
+
+.startBtnContent {
+  position: absolute;
+  left: 39.954667vw;
+  bottom: 31.466667vw;
+  width: 20vw;
+  height: 20vw;
+  transition: all 0.03s cubic-bezier(0, 0, 0.5, 1);
+}
+
+.back {
+  left: 0;
+  top: 0;
+  width: 20vw;
+  height: 20vw;
+  display: block;
+  position: absolute;
+  background: #f54133;
+  border-radius: 50%;
+}
+
+.radius {
+  animation-name: btn;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.arrow {
+  position: absolute;
+  left: 5.333333vw;
+  top: 5.866667vw;
+  width: 9.421333vw;
+  height: 7.821333vw;
+  transform-style: preserve-3d;
+  opacity: 1;
+  display: block;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABYCAMAAAAqTZIDAAAAjVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8DizOFAAAALnRSTlMA+Ij8CA37JwXl3nJQZSMK6MTAuLJ3a1tW4r1fIIF8Hcg4GZ8W8+6r2NGPPz0tRwM9QQAAARhJREFUaN7tzdtuglAQRuGfomUjokgFra1WDmqP8/6PV2o0lsQYE/eM2Trrdl18uKiyhEgmS4iSCPyZlLalXXC3oF1LdmtFUlZAJGX90L9GrJbx5KxPErOG73LWW08ty1Y6PCynrVe13LKeW9bsVq0O+BqoZdt6YrVCtVyyArUut5KWNZa0zGGp5ZBVVKFnO5+OWZFP/G3+rC8SqQIwIpkCGI9kilGSUBEQkkx9oCKR1h2g2yOJJmgazIg9r5G2FfmD7cK21Adb85b0qNLdSwuV7ElT7HNYyq4k+Sq5IU3AVqSSSqekF+xzWMpVsibRLUox2PoWk7AUk2oxCYWYhFpMAj7EJBT+TsrBXryipvUUAtXzzTgrcW6/D4hkJXbZfaQAAAAASUVORK5CYII=);
+  background-size: cover;
+}
+
+.tipContent {
+  top: 22.4vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.tip {
+  font-size: 4.266667vw;
+  color: #464040;
+}
+
+@keyframes runCloud {
+  0% {
+    transform: translateY(-1.333333vw);
+  }
+
+  50% {
+    transform: translateY(1.333333vw);
+  }
+
+  100% {
+    transform: translateY(-1.333333vw);
+  }
+}
+
+@keyframes btn {
+  0% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+}
