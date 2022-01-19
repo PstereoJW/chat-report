@@ -30,7 +30,7 @@ const keyword = annualMessages.reduce((keywords, message) => {
   return keywords;
 }, {} as Keyword);
 
-export const firstPage: FirstPageData = {
+export const firstPageData: FirstPageData = {
   allCounts: annualMessages.length,
   emoji: annualMessages.filter(
     (message) => message.m_uiMessageType === MessageType.emoji

@@ -1,0 +1,274 @@
+.content {
+  background: transparent;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  transform-origin: 50% 0;
+}
+
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 216.533333vw;
+  left: 0;
+  bottom: 0;
+}
+
+.cloud {
+  position: absolute;
+  width: 100vw;
+  height: 216.533333vw;
+  left: 0;
+  top: 0;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  background: url(../../../../static/img/firstPageCloud.png);
+  background-size: cover;
+}
+
+.door {
+  left: -9.866667vw;
+  top: 124.266667vw;
+  width: 134.754667vw;
+  height: 104.178667vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+  background: url(../../../../static/img/firstPageDoor.png);
+  background-size: cover;
+}
+
+.rain {
+  left: -13.333333vw;
+  bottom: 15.2vw;
+  width: 107.733333vw;
+  height: 81.333333vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+  background: url(../../../../static/img/firstPageRain.png);
+  background-size: cover;
+}
+
+.peopleContent {
+  left: 149px;
+  bottom: 26px;
+  width: 50px;
+  height: 88.93333333px;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+}
+
+.shadow {
+  left: -18px;
+  bottom: -31px;
+  width: 48.33px;
+  height: 43.67px;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+  background: url(../../../../static/img/firstPageShadow.png);
+  background-size: cover;
+}
+
+.people {
+  display: block;
+  height: 88px;
+  width: 100%;
+  background: url(../../../../static/img/firstPagePeople.png);
+  background-size: cover;
+}
+
+.sheep {
+  left: 65.333333vw;
+  top: 187.288vw;
+  width: 6.845333vw;
+  height: 11.021333vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+  background: url(../../../../static/img/firstPageSheep.png);
+  background-size: cover;
+}
+
+.cloud1 {
+  left: 73.154667vw;
+  top: 169.954667vw;
+  width: 19.2vw;
+  height: 9.866667vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+  background: url(../../../../static/img/firstPageCloud1.png);
+  background-size: cover;
+  animation-name: run;
+  animation-duration: 9s;
+  animation-timing-function: cubic-bezier(0.3, 0, 0.7, 1);
+  animation-delay: -3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.cloud2 {
+  left: 35.466667vw;
+  top: 168.978667vw;
+  width: 22.045333vw;
+  height: 11.821333vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+  background: url(../../../../static/img/firstPageCloud2.png);
+  background-size: cover;
+  animation-name: run;
+  animation-duration: 10s;
+  animation-timing-function: cubic-bezier(0.3, 0, 0.7, 1);
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.textContent {
+  position: absolute;
+  top: 20.666667vw;
+  left: 8.333333vw;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 4.533333vw;
+  color: #4a4848;
+}
+
+.firstText {
+  display: flex;
+  align-items: center;
+  margin-top: 1.6vw;
+  animation-name: textShow;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-delay: 1.4s;
+}
+
+.inline {
+  position: relative;
+  display: inline-block;
+  margin-left: 1.6vw;
+  margin-right: 1.6vw;
+  margin-bottom: 1.066667vw;
+  font-size: 8.533333vw;
+  font-family: LinLi !important;
+}
+
+.secondText {
+  display: flex;
+  align-items: center;
+  margin-top: -1.066667vw;
+  animation-name: textShow;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-delay: 1.6s;
+}
+
+.engText {
+  font-family: pt;
+}
+
+.thirdText {
+  display: flex;
+  flex-direction: column;
+  margin: 2.666667vw 0 8vw;
+  animation-name: textShow;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-delay: 1.8s;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.133333vw;
+}
+
+.name {
+  font-size: 3.466667vw;
+  margin-right: 2.133333vw;
+  max-width: 50.666667vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.count {
+  font-size: 2.666667vw;
+}
+
+.endText {
+  margin-top: -2.666667vw;
+}
+
+@keyframes run {
+  0% {
+    transform: translateX(-2.666667vw);
+  }
+
+  50% {
+    transform: translateX(2.666667vw);
+  }
+
+  100% {
+    transform: translateX(-2.666667vw);
+  }
+}
+
+@keyframes textShow {
+  0% {
+    transform: translateY(2.133333vw);
+    opacity: 0;
+  }
+  50% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}

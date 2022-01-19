@@ -24,3 +24,15 @@ code {
   font-weight: bold;
   src: url("./static/font/song.ttf");
 }
+
+@font-face {
+  font-family: "song2";
+  font-weight: bold;
+  src: url("./static/font/song2.ttf");
+}
+
+@font-face {
+  font-family: "LinLi";
+  font-weight: bold;
+  src: url("./static/font/LinLibertineSlantedB.ttf");
+}

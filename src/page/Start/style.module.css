@@ -76,9 +76,9 @@
   background: url(/src/static/img/lePeople.png);
   background-size: cover;
   left: 55.2vw;
-  top: 69.845333vw;
-  width: 40vw;
-  height: 60vw;
+  top: 63.845333vw;
+  width: 50vw;
+  height: 75vw;
   position: absolute;
 }
 
@@ -100,10 +100,10 @@
 .selfPeople {
   background: url(/src/static/img/selfPeople.png);
   background-size: cover;
-  left: 15.288vw;
-  top: 69.554667vw;
-  width: 29.912vw;
-  height: 45.245333vw;
+  left: 12.288vw;
+  top: 62.554667vw;
+  width: 39.912vw;
+  height: 55.245333vw;
   transform-style: preserve-3d;
   transform: translateZ(0) rotate(0deg) scale(1);
   opacity: 1;
@@ -122,13 +122,13 @@
 }
 
 .nickname {
-  font-size: 4.5vw;
+  font-size: 8vw;
 }
 
 .englishTitle {
   font-family: "pt";
   display: flex;
-  margin: 4vw 0;
+  margin: 2vw 0 4vw 0;
 }
 .subTitle {
   font-size: 5vw;

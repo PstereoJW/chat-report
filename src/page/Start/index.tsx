@@ -1,5 +1,12 @@
+import { useNavigate } from "react-router-dom";
 import style from "./style.module.css";
 const StartPage = () => {
+  const navigate = useNavigate();
+
+  const handleStartClick = () => {
+    navigate("/content");
+  };
+
   return (
     <div className={style.container}>
       <div className={style.background} />
@@ -26,7 +33,7 @@ const StartPage = () => {
         </div>
         <div className={style.chineseTitle}>年度微信报告</div>
       </div>
-      <div className={style.startBtnContent}>
+      <div className={style.startBtnContent} onClick={handleStartClick}>
         <div className={style.back} />
         <div className={`${style.back} ${style.radius}`} />
         <div className={style.arrow} />
