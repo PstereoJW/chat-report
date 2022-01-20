@@ -37,12 +37,16 @@ const FirstPage = () => {
                 FirstPageDataProps.keyword[b] - FirstPageDataProps.keyword[a]
             )
             .map((key) => (
-              // @ts-ignore
-              <TextItem name={key} count={FirstPageDataProps.keyword[key]} />
+              <TextItem
+                key={key}
+                name={key}
+                // @ts-ignore
+                count={FirstPageDataProps.keyword[key]}
+              />
             ))}
           <div className={style.endText}>......</div>
         </div>
-        <div>果然唯有猫猫和美食是快乐源泉</div>
+        <div className={style.textRun}>果然唯有猫猫和美食是快乐源泉</div>
       </div>
     </div>
   );
