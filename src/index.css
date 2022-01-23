@@ -12,6 +12,34 @@ code {
     monospace;
 }
 
+.line {
+  animation-name: lineAniKey;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.lineDelay1 {
+  animation-delay: 1.2s;
+}
+
+@keyframes lineAniKey {
+  0% {
+    transform: translateY(2.133333vw);
+    opacity: 0;
+  }
+  50% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
 /* 变量写这里 */
 @font-face {
   font-family: "pt";

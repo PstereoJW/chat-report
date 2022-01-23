@@ -1,0 +1,268 @@
+.content {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.bgCloud {
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 216.533333vw;
+  display: block;
+  position: absolute;
+  background: url(../../../../static/img/secondPageCloud.jpg);
+  background-size: cover;
+}
+
+.halfContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 216.533333vw;
+}
+
+.people {
+  left: 74.666667vw;
+  bottom: 106.666667vw;
+  width: 23.466667vw;
+  height: 41.733333vw;
+  display: block;
+  position: absolute;
+  background: url(../../../../static/img/secondPeople.png);
+  background-size: cover;
+  animation-name: run;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.11, 0.38, 0.3, 0.99);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.timeContent0 {
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  display: block;
+  position: absolute;
+  opacity: 1;
+  animation-delay: 0.5s;
+  height: 120vw;
+  background: url(../../../../static/img/secondGrass.png);
+  background-size: cover;
+}
+
+.timeContent1 {
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  display: block;
+  position: absolute;
+  opacity: 1;
+  animation-delay: 0.4s;
+  height: 108.267vw;
+  background: url(../../../../static/img/secondGrass1.png);
+  background-size: cover;
+}
+
+.timeContent2 {
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  display: block;
+  position: absolute;
+  opacity: 1;
+  animation-delay: 0.3s;
+  height: 97.3333vw;
+
+  background: url(../../../../static/img/secondGrass2.png);
+  background-size: cover;
+}
+
+.timeContent3 {
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  display: block;
+  position: absolute;
+  opacity: 1;
+  animation-delay: 0.2s;
+  height: 84.5333vw;
+  background: url(../../../../static/img/secondGrass3.png);
+  background-size: cover;
+}
+
+.timeContent4 {
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  display: block;
+  position: absolute;
+  opacity: 1;
+  animation-delay: 0.1s;
+  height: 66.6667vw;
+  background: url(../../../../static/img/secondGrass4.png);
+  background-size: cover;
+}
+
+.textRunAni {
+  animation-name: textRun;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.11, 0.38, 0.3, 0.99);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #4a4847;
+  position: absolute;
+  width: 100%;
+}
+
+.textFont {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: normal;
+  font-family: "song2";
+  font-weight: 500;
+  display: inline-block;
+  margin-right: 2.666667vw;
+  margin-left: 13.333333vw;
+}
+
+.textContent0 {
+  animation-delay: 1.8s;
+  margin-top: 4vw;
+}
+
+.textName0 {
+  font-size: 7.46667vw;
+}
+
+.textCount0 {
+  font-size: 4.53333vw;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.textContent1 {
+  animation-delay: 1.5s;
+  margin-top: 4.8vw;
+}
+
+.textName1 {
+  font-size: 7.46667vw;
+}
+
+.textCount1 {
+  font-size: 4.53333vw;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.textContent2 {
+  animation-delay: 1.2s;
+  margin-top: 5.33333vw;
+}
+
+.textName2 {
+  font-size: 9.33333vw;
+}
+
+.textCount2 {
+  font-size: 5.33333vw;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.textContent3 {
+  animation-delay: 0.9s;
+  margin-top: 7.46667vw;
+}
+
+.textName3 {
+  font-size: 10.66667vw;
+}
+
+.textCount3 {
+  font-size: 5.33333vw;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.textContent4 {
+  animation-delay: 0.6s;
+  margin-top: 9.06667vw;
+}
+
+.textName4 {
+  font-size: 13.3333vw;
+}
+
+.textCount4 {
+  font-size: 6.93333vw;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.title {
+  position: absolute;
+  top: 15.7vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 4.533333vw;
+  color: #4a4847;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.bottomCloud {
+  pointer-events: none;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 111.554667vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+  background: url(../../../../static/img/secondPageBottomCloud.png);
+  background-size: cover;
+}
+
+@keyframes run {
+  0% {
+    transform: translateY(200%);
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes textRun {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

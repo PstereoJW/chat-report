@@ -57,6 +57,14 @@ export enum TimePeriodMap {
   "afternoon" = "傍晚", //17->20
 }
 
-export const TimePeriod = {
-  night: [],
+export type TimePeriod = {
+  night: number;
+};
+
+export type SecondPageData = {
+  [TimePeriodMap.afternoon]: string;
+  [TimePeriodMap.earlyMorning]: string;
+  [TimePeriodMap.morning]: string;
+  [TimePeriodMap.night]: string;
+  [TimePeriodMap.noon]: string;
 };
