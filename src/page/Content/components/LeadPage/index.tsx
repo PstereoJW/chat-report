@@ -21,9 +21,9 @@ const LeadPage = () => {
         <div className={style.bottomCloud} />
       </div>
       <div className={style.textContent}>
-        <div className={style.title}>嗨 乐乐</div>
-        <div className={style.text}>还记得2021有趣的瞬间嘛</div>
-        <div className={style.text}>出发去看看吧~</div>
+        <div className={style.title}>嗨 小王医生</div>
+        <div className={style.text}>还记得2021发生的事情嘛</div>
+        <div className={style.text}>一起去看看吧~</div>
       </div>
     </div>
   );

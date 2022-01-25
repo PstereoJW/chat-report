@@ -1,0 +1,390 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  position: absolute;
+  transform: scale(1.3);
+}
+
+.bgImg {
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  transform-style: preserve-3d;
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+  filter: contrast(1.1) blur(2.666667vw);
+  background: url(../../../../static/img/thirdPageBg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.boatContent {
+  position: absolute;
+  bottom: 63.733333vw;
+  width: 100vw;
+  height: 216.533333vw;
+  left: -2.666667vw;
+  opacity: 0;
+  animation-name: boatRun;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.water {
+  top: 186.133333vw;
+  left: 69.333333vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+  width: 26.666667vw;
+  height: 8vw;
+  background: url(../../../../static/img/thirdPageWater.png);
+  background-size: cover;
+}
+
+.boat {
+  position: absolute;
+  left: 75.2vw;
+  top: 177.066667vw;
+}
+
+.people {
+  left: 37px;
+  top: -11px;
+  width: 31px;
+  height: 55.13866667px;
+  position: absolute;
+  background: url(../../../../static/img/thirdPagePeople.png);
+  background-size: cover;
+}
+
+.boatImg {
+  left: 0;
+  top: 0;
+  width: 22.578667vw;
+  height: 18.578667vw;
+  transform-style: preserve-3d;
+  transform: translateZ(0) rotate(0deg) scale(1);
+  opacity: 1;
+  transform-origin: 50% 50%;
+  display: block;
+  position: absolute;
+  background: url(../../../../static/img/thirdPageBoat.png);
+  background-size: cover;
+}
+
+.title {
+  font-size: 4.533333vw;
+  color: #4a4848;
+  text-align: left;
+}
+
+.textContent {
+  position: absolute;
+  bottom: 16vw;
+  left: 14.133333vw;
+  opacity: 0;
+  animation-name: textRun;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 1.5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.subTitle {
+  font-size: 8vw;
+  color: #464040;
+  margin-top: 1.6vw;
+  margin-left: -3.2vw;
+  font-family: "song2";
+}
+
+.chart {
+  left: 5.578667vw;
+  bottom: 30.666667vw;
+  width: 420px;
+  height: 300px;
+  transform-style: preserve-3d;
+  position: absolute;
+  opacity: 0;
+  animation-name: textRun;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.white {
+  left: 0;
+  bottom: -11.2vw;
+  width: 100vw;
+  height: 105.154667vw;
+  display: block;
+  position: absolute;
+  background: url(../../../../static/img/thirdPageWhite.png);
+  background-size: cover;
+}
+
+.bubbleContent {
+  position: absolute;
+  top: 20vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bubbleAni {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation-name: bubbleRun;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  background: url(../../../../static/img/thirdPageBubble.png);
+  background-size: cover;
+}
+
+.bubbleText {
+  font-size: 4.533333vw;
+  color: #4a4847;
+}
+
+.bubbleEmoji {
+  font-family: "LinLi";
+}
+
+.centerBubble {
+  margin: 0 auto;
+  width: 25vh;
+  height: 25vh;
+  transform-origin: 50% 50%;
+  animation-delay: 0s;
+}
+
+.centerText {
+  font-size: 7.733333vw;
+  color: #4a4847;
+}
+
+.leftBubble {
+  right: 22.2vh;
+  bottom: 18.8vh;
+  width: 8vh;
+  height: 8vh;
+  transform-origin: 50% 50%;
+  position: absolute;
+  animation-delay: 1s;
+}
+
+.leftText {
+  font-size: 4vw;
+  color: #9ab5bf;
+}
+
+.topBubble {
+  right: 12.2vh;
+  bottom: 27.8vh;
+  width: 9vh;
+  height: 9vh;
+  transform-origin: 50% 50%;
+  position: absolute;
+  animation-delay: -1s;
+}
+
+.topText {
+  font-size: 5vw;
+  color: #9ab5bf;
+}
+
+.rightBubble {
+  right: -5.2vh;
+  bottom: 22.8vh;
+  width: 11vh;
+  height: 11vh;
+  transform-origin: 50% 50%;
+  position: absolute;
+  animation-delay: -1.5s;
+}
+
+.rightText {
+  font-size: 6vw;
+  color: #9ab5bf;
+}
+
+.bottomBubble {
+  right: -7.2vh;
+  bottom: -3.8vh;
+  width: 13vh;
+  height: 13vh;
+  transform-origin: 50% 50%;
+  position: absolute;
+  animation-delay: -0.5s;
+}
+
+.bottomText {
+  font-size: 8vw;
+  color: #9ab5bf;
+}
+
+.bottomLeftBubble {
+  right: 20.2vh;
+  bottom: -3.8vh;
+  width: 10vh;
+  height: 10vh;
+  transform-origin: 50% 50%;
+  position: absolute;
+  animation-delay: 1.5s;
+}
+
+.bottomLeftText {
+  font-size: 7vw;
+  color: #9ab5bf;
+}
+
+.topTitle {
+  position: absolute;
+  top: 4vh;
+  left: 17vw;
+  text-align: left;
+  font-size: 4.533333vw;
+  color: #4a4847;
+  line-height: 8vw;
+  font-family: "pt";
+}
+
+@keyframes boatRun {
+  0% {
+    opacity: 0;
+    transform: translateX(8vw);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes textRun {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bubbleRun {
+  0% {
+    transform: translateZ(0) rotate(0deg) scale(1);
+  }
+  3.33% {
+    transform: translate3d(-0.546667vw, 0.049019vw, 0) rotate(0deg) scale(1);
+  }
+  6.67% {
+    transform: translate3d(-1.072vw, 0.195861vw, 0) rotate(0deg) scale(1);
+  }
+  10% {
+    transform: translate3d(-1.554667vw, 0.451575vw, 0) rotate(0deg) scale(1);
+  }
+  13.33% {
+    transform: translate3d(-1.96vw, 0.814052vw, 0) rotate(0deg) scale(1);
+  }
+  16.67% {
+    transform: translate3d(-2.264vw, 1.264847vw, 0) rotate(0deg) scale(1);
+  }
+  20% {
+    transform: translate3d(-2.448vw, 1.775199vw, 0) rotate(0deg) scale(1);
+  }
+  23.33% {
+    transform: translate3d(-2.504vw, 2.313884vw, 0) rotate(0deg) scale(1);
+  }
+  26.67% {
+    transform: translate3d(-2.437333vw, 2.851589vw, 0) rotate(0deg) scale(1);
+  }
+  30% {
+    transform: translate3d(-2.250667vw, 3.360651vw, 0) rotate(0deg) scale(1);
+  }
+  33.33% {
+    transform: translate3d(-1.952vw, 3.815225vw, 0) rotate(0deg) scale(1);
+  }
+  36.67% {
+    transform: translate3d(-1.56vw, 4.192381vw, 0) rotate(0deg) scale(1);
+  }
+  40% {
+    transform: translate3d(-1.096vw, 4.479121vw, 0) rotate(0deg) scale(1);
+  }
+  43.33% {
+    transform: translate3d(-0.584vw, 4.673038vw, 0) rotate(0deg) scale(1);
+  }
+  46.67% {
+    transform: translate3d(-0.048vw, 4.780657vw, 0) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translate3d(0.498667vw, 4.813137vw, 0) rotate(0deg) scale(1);
+  }
+  53.33% {
+    transform: translate3d(1.024vw, 4.764543vw, 0) rotate(0deg) scale(1);
+  }
+  56.67% {
+    transform: translate3d(1.525333vw, 4.610205vw, 0) rotate(0deg) scale(1);
+  }
+  60% {
+    transform: translate3d(1.978667vw, 4.342213vw, 0) rotate(0deg) scale(1);
+  }
+  63.33% {
+    transform: translate3d(2.346667vw, 3.970933vw, 0) rotate(0deg) scale(1);
+  }
+  66.67% {
+    transform: translate3d(2.610667vw, 3.521401vw, 0) rotate(0deg) scale(1);
+  }
+  70% {
+    transform: translate3d(2.768vw, 3.023804vw, 0) rotate(0deg) scale(1);
+  }
+  73.33% {
+    transform: translate3d(2.813333vw, 2.50426vw, 0) rotate(0deg) scale(1);
+  }
+  76.67% {
+    transform: translate3d(2.749333vw, 1.98662vw, 0) rotate(0deg) scale(1);
+  }
+  80% {
+    transform: translate3d(2.581333vw, 1.493165vw, 0) rotate(0deg) scale(1);
+  }
+  83.33% {
+    transform: translate3d(2.312vw, 1.044792vw, 0) rotate(0deg) scale(1);
+  }
+  86.67% {
+    transform: translate3d(1.954667vw, 0.663813vw, 0) rotate(0deg) scale(1);
+  }
+  90% {
+    transform: translate3d(1.522667vw, 0.366856vw, 0) rotate(0deg) scale(1);
+  }
+  93.33% {
+    transform: translate3d(1.037333vw, 0.160386vw, 0) rotate(0deg) scale(1);
+  }
+  96.67% {
+    transform: translate3d(0.525333vw, 0.041358vw, 0) rotate(0deg) scale(1);
+  }
+  100% {
+    transform: translateZ(0) rotate(0deg) scale(1);
+  }
+}
