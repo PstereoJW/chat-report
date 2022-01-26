@@ -5,6 +5,7 @@ import ThirdPage from "./components/ThirdPage";
 import { useRef, useState } from "react";
 import { CSSTransition } from "react-transition-group";
 import style from "./style.module.css";
+import FourthPage from "./components/FourthPage";
 
 const ContentPage = () => {
   const [animationConfig, setAnimationConfig] = useState<{
@@ -73,6 +74,14 @@ const ContentPage = () => {
         classNames="my-node"
       >
         <div>{animationConfig.currNum === 3 && <ThirdPage />}</div>
+      </CSSTransition>
+      <CSSTransition
+        in={animationConfig.currNum === 4 && !animationConfig.loading}
+        timeout={1800}
+        onExited={handleExited}
+        classNames="my-node"
+      >
+        <div>{animationConfig.currNum === 4 && <FourthPage />}</div>
       </CSSTransition>
     </div>
   );
